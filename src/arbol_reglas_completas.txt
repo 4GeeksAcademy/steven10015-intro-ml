@@ -1,0 +1,214 @@
+|--- Glucose <= 127.50
+|   |--- BMI <= 26.45
+|   |   |--- class: 0
+|   |--- BMI >  26.45
+|   |   |--- Age <= 24.50
+|   |   |   |--- BMI <= 33.25
+|   |   |   |   |--- class: 0
+|   |   |   |--- BMI >  33.25
+|   |   |   |   |--- SkinThickness <= 37.55
+|   |   |   |   |   |--- Glucose <= 113.50
+|   |   |   |   |   |   |--- Age <= 21.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Age >  21.50
+|   |   |   |   |   |   |   |--- Glucose <= 90.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Glucose >  90.00
+|   |   |   |   |   |   |   |   |--- Glucose <= 96.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Glucose >  96.50
+|   |   |   |   |   |   |   |   |   |--- SkinThickness <= 28.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SkinThickness >  28.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Glucose >  113.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- SkinThickness >  37.55
+|   |   |   |   |   |--- class: 0
+|   |   |--- Age >  24.50
+|   |   |   |--- Glucose <= 99.50
+|   |   |   |   |--- DiabetesPedigreeFunction <= 1.16
+|   |   |   |   |   |--- Age <= 42.50
+|   |   |   |   |   |   |--- SkinThickness <= 41.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- SkinThickness >  41.50
+|   |   |   |   |   |   |   |--- SkinThickness <= 43.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- SkinThickness >  43.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Age >  42.50
+|   |   |   |   |   |   |--- BMI <= 30.85
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- BMI >  30.85
+|   |   |   |   |   |   |   |--- SkinThickness <= 26.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- SkinThickness >  26.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- DiabetesPedigreeFunction >  1.16
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Glucose >  99.50
+|   |   |   |   |--- DiabetesPedigreeFunction <= 0.51
+|   |   |   |   |   |--- BMI <= 36.70
+|   |   |   |   |   |   |--- Age <= 35.00
+|   |   |   |   |   |   |   |--- SkinThickness <= 23.57
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- SkinThickness >  23.57
+|   |   |   |   |   |   |   |   |--- SkinThickness <= 25.24
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SkinThickness >  25.24
+|   |   |   |   |   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- DiabetesPedigreeFunction >  0.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Age >  35.00
+|   |   |   |   |   |   |   |--- BMI <= 29.85
+|   |   |   |   |   |   |   |   |--- BMI <= 27.55
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- BMI >  27.55
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- BMI >  29.85
+|   |   |   |   |   |   |   |   |--- SkinThickness <= 28.56
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SkinThickness >  28.56
+|   |   |   |   |   |   |   |   |   |--- Glucose <= 123.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Glucose >  123.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- BMI >  36.70
+|   |   |   |   |   |   |--- BMI <= 47.18
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- BMI >  47.18
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DiabetesPedigreeFunction >  0.51
+|   |   |   |   |   |--- Age <= 34.50
+|   |   |   |   |   |   |--- BMI <= 31.95
+|   |   |   |   |   |   |   |--- Age <= 32.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Age >  32.50
+|   |   |   |   |   |   |   |   |--- SkinThickness <= 25.46
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SkinThickness >  25.46
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- BMI >  31.95
+|   |   |   |   |   |   |   |--- SkinThickness <= 28.88
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- SkinThickness >  28.88
+|   |   |   |   |   |   |   |   |--- Glucose <= 103.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Glucose >  103.50
+|   |   |   |   |   |   |   |   |   |--- Glucose <= 109.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Glucose >  109.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Age >  34.50
+|   |   |   |   |   |   |--- SkinThickness <= 47.50
+|   |   |   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.56
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- DiabetesPedigreeFunction >  0.56
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- SkinThickness >  47.50
+|   |   |   |   |   |   |   |--- class: 0
+|--- Glucose >  127.50
+|   |--- Glucose <= 165.50
+|   |   |--- BMI <= 30.10
+|   |   |   |--- Age <= 50.50
+|   |   |   |   |--- Age <= 41.00
+|   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.32
+|   |   |   |   |   |   |--- SkinThickness <= 28.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- SkinThickness >  28.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- DiabetesPedigreeFunction >  0.32
+|   |   |   |   |   |   |--- BMI <= 28.50
+|   |   |   |   |   |   |   |--- Age <= 25.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Age >  25.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- BMI >  28.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Age >  41.00
+|   |   |   |   |   |--- BMI <= 29.70
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- BMI >  29.70
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- Age >  50.50
+|   |   |   |   |--- class: 0
+|   |   |--- BMI >  30.10
+|   |   |   |--- DiabetesPedigreeFunction <= 0.73
+|   |   |   |   |--- Age <= 42.50
+|   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.67
+|   |   |   |   |   |   |--- BMI <= 48.10
+|   |   |   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.33
+|   |   |   |   |   |   |   |   |--- BMI <= 39.05
+|   |   |   |   |   |   |   |   |   |--- SkinThickness <= 39.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SkinThickness >  39.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- BMI >  39.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- DiabetesPedigreeFunction >  0.33
+|   |   |   |   |   |   |   |   |--- SkinThickness <= 48.00
+|   |   |   |   |   |   |   |   |   |--- BMI <= 33.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- BMI >  33.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SkinThickness >  48.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- BMI >  48.10
+|   |   |   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.40
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- DiabetesPedigreeFunction >  0.40
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- DiabetesPedigreeFunction >  0.67
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Age >  42.50
+|   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.22
+|   |   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.16
+|   |   |   |   |   |   |   |--- Glucose <= 132.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Glucose >  132.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- DiabetesPedigreeFunction >  0.16
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- DiabetesPedigreeFunction >  0.22
+|   |   |   |   |   |   |--- Glucose <= 159.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Glucose >  159.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- DiabetesPedigreeFunction >  0.73
+|   |   |   |   |--- BMI <= 39.80
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- BMI >  39.80
+|   |   |   |   |   |--- BMI <= 40.75
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- BMI >  40.75
+|   |   |   |   |   |   |--- Age <= 23.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Age >  23.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |--- Glucose >  165.50
+|   |   |--- Glucose <= 172.50
+|   |   |   |--- class: 1
+|   |   |--- Glucose >  172.50
+|   |   |   |--- BMI <= 29.10
+|   |   |   |   |--- Age <= 38.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Age >  38.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- BMI >  29.10
+|   |   |   |   |--- DiabetesPedigreeFunction <= 1.16
+|   |   |   |   |   |--- DiabetesPedigreeFunction <= 0.31
+|   |   |   |   |   |   |--- SkinThickness <= 27.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- SkinThickness >  27.50
+|   |   |   |   |   |   |   |--- SkinThickness <= 32.90
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- SkinThickness >  32.90
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- DiabetesPedigreeFunction >  0.31
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DiabetesPedigreeFunction >  1.16
+|   |   |   |   |   |--- Age <= 28.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Age >  28.00
+|   |   |   |   |   |   |--- class: 0
